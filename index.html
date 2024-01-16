@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>レンタルポート「boat」</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="logo">
+                <a href="#"><img src="images/logo.png" alt="boat"></a>
+            </h1>
+
+            <input type="checkbox" id="onoff" class="ck-burger">
+            <label for="onoff" class="btn-burger"></label>
+
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">サービス</a></li>
+                    <li><a href="#">会社概要</a></li>
+                    <li><a href="#">レンタルの方法</a></li>
+                    <li><a href="#">お客様の声</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="fview">
+            <img src="images/top-image_01.jpg" alt="ファーストビュー画像">
+        </div>
+
+        <section><!--item-->
+            <div class="item">
+                <h2 class="item">ラインナップ</h2>
+                <div class="item-row">
+                    <div class="item-col">
+                        <figure class="item-col-image">
+                            <img src="images/img_01.jpg" alt="マグロ漁船">
+                        </figure>
+                        <h3 class="item-col-topis">
+                        マグロ漁船
+                        </h3>
+                        <p>
+                            遠洋漁業のマグロ漁で使う大型漁船で、底引き網による遠洋漁業にも対応します。
+                        </p>
+                    </div>
+                    
+                    <div class="item-col">
+                        <figure class="item-col-image">
+                            <img src="images/img_06.jpg" alt="小型漁船">
+                        </figure>
+                        <h3 class="item-col-topic">小型漁船</h3>
+                        <p>沖釣りに最適な小型の漁船で、小型船舶免許で操縦できます。三人乗りです。</p>
+                    </div>
+
+                    <div class="item-col">
+                        <figure class="item-col-image">
+                            <img src="images/img_03.jpg" alt="アヒルボート">
+                        </figure>
+                        <h3 class="item-col-topic">カップルアヒルボート</h3>
+                        <p>お馴染みのアヒル型足こぎボートです。船舶免許不要で二名様まで乗ることが可能です。</p>
+                    </div>
+                </div><!--item-->
+            </div><!--item-->
+        </section>
+
+        <section><!--map-->
+            <div class="map">
+                <h2 class="hending">交通アクセス</h2>
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912.979763533356!2d130.71859701058457!3d32.79602380413676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f3f4a78358ef%3A0x387ad8dc3fc9f5f1!2z54aK5pys44OH44K244Kk44Oz5bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1699945433542!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section><!--map-->
+
+        <section><!--item-->
+            <table class="table_detail">
+                <tr>
+                    <th>店名</th>
+                    <td>boat Rental shop</td>
+                </tr>
+                <tr>
+                    <th>住所</th>
+                    <td>熊本県熊本市中央区二ノ丸１丁目１番</td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td>096-1234-5678</td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>10:00〜20:00</td>
+                </tr>
+                <tr>
+                    <th>定休日</th>
+                    <td>日曜、祝日、年末年始</td>
+                </tr>
+                <tr>
+                    <th>その他</th>
+                    <td>このホームページはサンプルです</td>
+                </tr>
+            </table>
+        </section><!--item-->
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#"><img src="images/logo_footer.png" alt="boat"></a>
+            </div>
+            <address class="footer-address">
+                熊本県熊本市中央区二ノ丸１丁目１番<br>TEL・FAX 096-1234-5678
+            </address>
+            
+            <div class="footer-sns">
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div class="copyright">
+                <small>&copy; kumamoto Corporation.</small>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
