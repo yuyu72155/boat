@@ -166,7 +166,7 @@ padding: 0 10px;
 }
 .table_detail tr th,
 .table_detail tr td {
-    padding: 10%;
+    padding: 10px;
     border: 1px dotted #4f4f4f;
     border-top: none;
     border-left: none;
